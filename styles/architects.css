@@ -108,6 +108,31 @@ main > section{
 #Quick-list{
     font-weight: 500;
 }
+/* features section related styles */
+.features{
+    gap: 100px;
+}
+.feature-left-side{
+    max-width: 598.5px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    max-width: 514px;
+}
+.feature-card .feature-title {
+    font-weight:600;
+    font-size:1.25rem;
+    margin-bottom: 20px;
+}
+
 /* some facts related styles */
 .fact-card{
     border: 1px solid #FF900E;
@@ -158,6 +183,8 @@ main > section{
 }
 
 
+
+
 /* mobile responsive media query*/
 @media screen and (max-width: 576px) {
     .navbar,
@@ -191,5 +218,6 @@ main > section{
         gap: 50px;
         justify-items: center;
     }
+
 }
 
